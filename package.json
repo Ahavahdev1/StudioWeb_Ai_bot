@@ -1,0 +1,14 @@
+{
+  "name": "meu_site",
+  "version": "1.0.0",
+  "description": "Projeto AI Bot StudioWeb com cadastro e chat.",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "sql.js": "^1.7.0"
+  }
+}

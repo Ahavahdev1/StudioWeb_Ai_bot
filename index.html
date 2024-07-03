@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Bot StudioWeb - Cadastro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Bot StudioWeb</h1>
+        <p>Por favor, cadastre-se para acessar o chat.</p>
+        <form id="registrationForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="whatsapp">WhatsApp:</label>
+            <input type="text" id="whatsapp" name="whatsapp" required>
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p id="message"></p>
+    </div>
+
+    <!-- Carregar o SQL.js do node_modules -->
+    <script src="node_modules/sql.js/dist/sql-wasm.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
